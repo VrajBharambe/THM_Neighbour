@@ -25,7 +25,7 @@ As we can see <b>Credentials</b> for <b>guest</b> login are given. </br>
 ````
 http://10.10.***.***/profile.php?user=guest
 ````
-As you can see the <b>get</b> paramater in URL is pointing toward <b>user=guest</b>, but what if we try to change the username in the URL.
+As you can see the <b>get</b> parameter in URL is pointing toward <b>user=guest</b>, but what if we try to change the username in the URL.
 As mentioned earlier this challenge is IDOR so let's try changing the <b>guest</b> user to <b>admin</b>. </br>
 
 ## Modifying the URL parameter
